@@ -1,0 +1,50 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fantasque Sans Mono",
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 30,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "editor.smoothScrolling": true,
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.fontSize": 15,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "workbench.editor.enablePreview": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "explorer.confirmDelete": false,
+  // "emmet.includeLanguages": {
+  //   "javascript": "javascriptreact"
+  // },
+
+  // "editor.formatOnSave": true,
+
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.labelFormat": "short",
+  "breadcrumbs.enabled": false,
+  // "editor.formatOnPaste": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+  // Prettier
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "onWindowChange",
+  "liveServer.settings.CustomBrowser": "firefox",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./css"
+    }
+  ],
+  "workbench.activityBar.visible": false
+}
